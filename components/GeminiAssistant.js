@@ -61,7 +61,7 @@ export default function GeminiAssistant() {
 
     try {
       const res = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyAfxNeFFtuKXQOTk7cXGITPAegsiPMnTUE",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
